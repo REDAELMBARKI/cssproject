@@ -1,12 +1,17 @@
 import React from 'react'
 
 import NavBar from './layouts/NavBar'
+import FrontView from './components/frontView'
 function App() {
  
   return (
-    <div className='w-100 h-100'>
-         <NavBar />
-    </div>
+    <>
+    
+          <NavBar />
+ 
+          <FrontView />
+     
+    </>
   )
 }
 
